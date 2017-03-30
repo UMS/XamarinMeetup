@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage x:Class="AppWars.Views.CharactersPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" BackgroundColor="Black">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand" Padding="0,40,0,0">
+            <ListView x:Name="listView"
+                      VerticalOptions="FillAndExpand"
+                      BackgroundColor="Black"
+                      ItemsSource="{Binding Persons}"
+				SelectedItem="{Binding SelectedPerson}"
+                      SeparatorVisibility="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ImageCell Text="{Binding Name}" TextColor="#fff" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

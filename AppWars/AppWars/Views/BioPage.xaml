@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage x:Class="AppWars.Views.BioPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#222"
+	Title="{Binding Name}">
+    <ContentPage.Content>
+        <ScrollView x:Name="TextScrollView" Orientation="Vertical" Padding="0, 20, 0,0">
+            <StackLayout VerticalOptions="FillAndExpand">
+                <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                    <Label FontAttributes="Bold"
+                           Text="Name: "
+                           TextColor="Yellow" />
+                    <Label Text="{Binding Name}" TextColor="Yellow" />
+                </StackLayout>
+                <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                    <Label FontAttributes="Bold"
+                           Text="Height: "
+                           TextColor="Yellow" />
+                    <Label Text="{Binding Height}" TextColor="Yellow" />
+                </StackLayout>
+                <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                    <Label FontAttributes="Bold"
+                           Text="Birth year: "
+                           TextColor="Yellow" />
+                    <Label Text="{Binding BirthYear}" TextColor="Yellow" />
+                </StackLayout>
+                <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                    <Label FontAttributes="Bold"
+                           Text="Gender: "
+                           TextColor="Yellow" />
+                    <Label Text="{Binding Gender}" TextColor="Yellow" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

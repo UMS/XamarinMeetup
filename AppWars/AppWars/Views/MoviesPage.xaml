@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage x:Class="AppWars.Views.MoviesPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:design="clr-namespace:AppWars;assembly=AppWars"
+             BackgroundColor="Purple"
+             BindingContext="{x:Static design:ViewModelLocator.MoviesPageViewModel}">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand" Padding="0,40,0,0">
+            <ListView x:Name="listView"
+                      Margin="10, 40"
+                      VerticalOptions="FillAndExpand"
+                      BackgroundColor="Purple"
+                      ItemsSource="{Binding Films}"
+                      SelectedItem="{Binding SelectedFilm}"
+                      SeparatorVisibility="Default">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ImageCell Text="{Binding Title}" TextColor="#fff" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

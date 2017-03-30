@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage x:Class="AppWars.Views.FilmPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="{Binding Title}"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+
+        <Grid>
+
+            <Image HorizontalOptions="Fill"
+                   VerticalOptions="Fill"
+                   Aspect="AspectFill"
+                   Source="starwarsintrobg.jpg" />
+            <ScrollView x:Name="TextScrollView"
+                        Orientation="Vertical"
+                        Padding="16,300"
+                        RotationX="24">
+                <StackLayout Orientation="Vertical" >
+                    <Label x:Name="Text"
+                           HorizontalOptions="Fill"
+                           FontAttributes="Bold"
+                           FontSize="30"
+                           HorizontalTextAlignment="Center"
+                           Text="{Binding OpeningCrawl}"
+                           TextColor="Yellow" />
+
+                    <Label Margin="0, 0, 0, 50" HorizontalTextAlignment="Center"
+                           Text="{Binding EpisodeId,
+                                          StringFormat='Episode: {0}'}"
+                           TextColor="Yellow" />
+                    <Label HorizontalTextAlignment="Center"
+                           Text="{Binding ReleaseDate,
+                                          StringFormat='Released: {0}'}"
+                           TextColor="Yellow" />
+
+                    <Label HorizontalTextAlignment="Center"
+                           Text="{Binding Director,
+                                          StringFormat='Director: {0}'}"
+                           TextColor="Yellow" />
+                    <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                        <Label FontAttributes="Bold"
+                               Text="Producer: "
+                               TextColor="Yellow" />
+                        <Label Text="{Binding Producer}" TextColor="Yellow" />
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

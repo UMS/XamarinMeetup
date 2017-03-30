@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{7D7A86DF-7084-4598-AF56-F7F859B50FDA}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="iOS/AppDelegate.cs" Line="17" Column="39" />
+      <File FileName="AppWars/App.xaml.cs" Line="9" Column="30" />
+      <File FileName="AppWars/Services/ISwapiService.cs" Line="2" Column="14" />
+      <File FileName="AppWars/Services/SwapiService.cs" Line="20" Column="31" />
+      <File FileName="AppWars/Models/FilmResponse.cs" Line="8" Column="27" />
+      <File FileName="AppWars/Models/Film.cs" Line="5" Column="18" />
+      <File FileName="AppWars/Models/Person.cs" Line="9" Column="3" />
+      <File FileName="AppWars/Models/PersonsResponse.cs" Line="7" Column="3" />
+      <File FileName="AppWars/ViewModels/MoviesPageViewModel.cs" Line="1" Column="1" />
+      <File FileName="AppWars/ViewModels/CharactersPageViewModel.cs" Line="15" Column="17" />
+      <File FileName="AppWars/ViewModels/FilmViewModel.cs" Line="10" Column="4" />
+      <File FileName="Droid/Assets/AboutAssets.txt" Line="1" Column="1" />
+      <File FileName="Droid/Properties/AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="Droid/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="Droid/packages.config" Line="1" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="25" Column="1" />
+      <File FileName="iOS/Main.cs" Line="1" Column="1" />
+      <File FileName="AppWars/App.xaml" Line="1" Column="1" />
+      <File FileName="AppWars/FodyWeavers.xml" Line="1" Column="1" />
+      <File FileName="AppWars/packages.config" Line="1" Column="1" />
+      <File FileName="AppWars/Views/AppWarsPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="AppWars/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="AppWars/Views/FilmPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="AppWars/ViewModels/BioPageViewModel.cs" Line="1" Column="1" />
+      <File FileName="AppWars/Views/MoviesPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="AppWars/Views/CharactersPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="AppWars/Views/SettingsPage.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.AppWars.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6CB1AEF5-571B-4315-8433-C9B299B96EC9" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AppWars.Droid PreferredExecutionTarget="Android.Nexus 4 (Marshmallow)" />
+  <MultiItemStartupConfigurations />
+</Properties>

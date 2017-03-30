@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage x:Class="AppWars.Views.AppWarsPage"
+            xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:AppWars.Views">
+    <NavigationPage Title="Movies" Icon="films.png">
+        <x:Arguments>
+            <local:MoviesPage />
+        </x:Arguments>
+    </NavigationPage>
+	 <NavigationPage Title="Characters" Icon="characters.png">
+        <x:Arguments>
+            <local:CharactersPage />
+        </x:Arguments>
+    </NavigationPage>
+	 <NavigationPage Title="Settings" Icon="settings.png">
+        <x:Arguments>
+            <local:SettingsPage />
+        </x:Arguments>
+    </NavigationPage>
+
+</TabbedPage>
